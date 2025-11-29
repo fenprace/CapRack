@@ -9,7 +9,7 @@ Most devices on the shelf that homelabbers want to put in their mini rack, like 
 Mounting the devices on a open rack tray is a common solution.
 For nerds who care more about appearance, CapRack is now a better alternative.
 
-The concept of CapRack is simple: split 1U vertically into 2 0.5U CapRack modules.
+The concept of CapRack is simple: break 1U vertically into 2 0.5U CapRack modules.
 CapRack modules all follow the same standard to connect each other.
 **Connect any 2 CapRack modules into a 1U mini rack module.**
 Some examples:
@@ -18,6 +18,19 @@ Some examples:
   ![Mini NAS in 1U](./assets/mini-nas.jpg)
 - Compose a mini PC module with and a mini switch module, you get a decent, 1U, custom home router.
 - Simple connect 2 raspberry pi modules to create a 2-node pi cluster. Repeat it you can get a 4-node cluster in 2U. This is not the most space-efficient way, compared to solutions like [pi slice rack](https://github.com/Coole-Guus/pi-slice-rack). But it gives you more flexibility if you are not Jeff Geerling and only have 1~4 pis to mount. E.g. You have only 3 pis to mount, you can still fit them in 2U by composing 3 pi modules + 1 mini switch module, and connect them with ethernet.
+
+## CapRack Modules
+
+- [Blank panel and vent panel](https://makerworld.com/zh/models/1757048-blank-panel-for-caprack-10-inch-rack-system)
+- [Patch panel](https://makerworld.com/zh/models/2026534-patch-panel-module-composable-0-5u)
+- [Hot-swappable 2.5-inch hard drive mount](https://makerworld.com/zh/models/1757195-2-5-inch-disk-mount-modular-and-composable)
+- [Raspberry Pi 4 / 5 mount](https://makerworld.com/zh/models/1769785-raspberry-pi-4-5-mount-modular-and-composable)
+- [CWWK x86p5 motherboard mount](https://makerworld.com/zh/models/1876206-cwwk-x86-p5-rack-mount-modular-composable)
+
+## More modules working in progress
+
+- 3.5-inch hard drive mount (Due to insufficient space, I couldn't make it hot-swappable).
+- Cable management module
 
 ## How to connect 2 CapRack modules
 
@@ -36,20 +49,9 @@ To connect 2 CapRack modules, you need **2 M6 screws (at least 12mm long) and 2 
 5. Install other screw & nut in the same way to the other slot. Then you get it! The panel is ready to be installed onto your rack!
    ![](./assets/connect-4.jpg)
 
-## CapRack Modules
-
-### 2.5-inch disk mount
-
-### blank panel
-
-### blank panel with ventilation
-
-### patch panel
-
-### cwwk x86p5 motherboard mount
-
-# References
+# Resources
 
 - https://mini-rack.jeffgeerling.com
 - https://www.amazon.com/GeeekPi-Raspberry-Adapters-Compatible-RackMate
 - https://github.com/Coole-Guus/pi-slice-rack
+- https://makerworld.com/zh/models/1400538-10-inch-rack-1u-2-x-3-5-inch-hdd-hot-swap
