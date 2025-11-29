@@ -2,56 +2,106 @@
 
 ![A CapRack NAS](./assets/nas-front.jpg)
 
-CapRack is a modular 10-inch server rack mounting system that allows you to install small footprint equipment in your [mini rack](https://github.com/geerlingguy/mini-rack) in an aesthetic way.
+**The modular mounting system that transforms your 10-inch rack into a clean, aesthetic workspace.**
 
-Size of 1U in a mini rack is typically 222.25mm x 44.45mm.
-Most devices on the shelf that homelabbers want to put in their mini rack, like mini PCs or SBCs, do not fit in 1U out of the box.
-Mounting the devices on a open rack tray is a common solution.
-For nerds who care more about appearance, CapRack is now a better alternative.
+CapRack allows you to install small footprint equipment—like Raspberry Pis, mini PCs, and hard drives—into a standard 10-inch mini rack with a professional finish. No more messy trays or loose cables.
 
-The concept of CapRack is simple: break 1U vertically into 2 0.5U CapRack modules.
-CapRack modules all follow the same standard to connect each other.
-**Connect any 2 CapRack modules into a 1U mini rack module.**
-Some examples:
+---
 
-- Connect a mini PC module with a 2.5-inch disk mount module, you get a 1U mini NAS.
-  ![Mini NAS in 1U](./assets/mini-nas.jpg)
-- Compose a mini PC module with and a mini switch module, you get a decent, 1U, custom home router.
-- Simple connect 2 raspberry pi modules to create a 2-node pi cluster. Repeat it you can get a 4-node cluster in 2U. This is not the most space-efficient way, compared to solutions like [pi slice rack](https://github.com/Coole-Guus/pi-slice-rack). But it gives you more flexibility if you are not Jeff Geerling and only have 1~4 pis to mount. E.g. You have only 3 pis to mount, you can still fit them in 2U by composing 3 pi modules + 1 mini switch module, and connect them with ethernet.
+## 🧐 Why CapRack?
 
-## CapRack Modules
+The 10-inch rack is a favorite among homelabbers for its compact footprint. However, there are few off-the-shelf devices designed for this niche standard. Enthusiasts often struggle to mount their smaller devices neatly, usually resorting to placing them loosely on shelves.
 
-- [Blank panel and vent panel](https://makerworld.com/zh/models/1757048-blank-panel-for-caprack-10-inch-rack-system)
-- [Patch panel](https://makerworld.com/zh/models/2026534-patch-panel-module-composable-0-5u)
-- [Hot-swappable 2.5-inch hard drive mount](https://makerworld.com/zh/models/1757195-2-5-inch-disk-mount-modular-and-composable)
-- [Raspberry Pi 4 / 5 mount](https://makerworld.com/zh/models/1769785-raspberry-pi-4-5-mount-modular-and-composable)
-- [CWWK x86p5 motherboard mount](https://makerworld.com/zh/models/1876206-cwwk-x86-p5-rack-mount-modular-composable)
+**CapRack solves this by breaking the 1U space into two 0.5U composable modules.**
 
-## More modules working in progress
+- **Modular & Composable:** Mix and match any two modules to create a full 1U unit perfectly tailored to your needs.
+- **Aesthetic:** Everything aligns perfectly. Hide the mess and show off your lab.
+- **Standardized:** Uses common M6 screws for a secure and accessible connection.
+- **3D Printable:** Designed to be printed easily on standard hobbyist printers.
 
-- 3.5-inch hard drive mount (Due to insufficient space, I couldn't make it hot-swappable).
-- Cable management module
+## 🧩 Composition Examples
 
-## How to connect 2 CapRack modules
+The beauty of CapRack is flexibility and composability. Here are a few ways you can use it:
 
-CapRack is designed to be connected with M6 screws. As M6 screws are common in server rack mounting, they are easy to access to people who own a rack.
+### The "Mini NAS"
 
-To connect 2 CapRack modules, you need **2 M6 screws (at least 12mm long) and 2 M6 hex nuts**.
+Combine a **Mini PC Module** + **2.5-inch HDD Module**.
+![Mini NAS in 1U](./assets/mini-nas.jpg)
+_Perfect for a compact TrueNAS or Unraid server._
 
-1. Prepare 2 M6 screws, 2 M6 hex nuts, and the 2 CapRack modules you are going to connect.
-   ![](./assets/connect-0.jpg)
-2. Slide the 2 modules from the side.
-   ![](./assets/connect-1.jpg)
-3. Slide the to the end, put a hex nut into the slot.
-   ![](./assets/connect-2.jpg)
-4. Screw in a M6 screw, from the other side of the panel.
-   ![](./assets/connect-3.jpg)
-5. Install other screw & nut in the same way to the other slot. Then you get it! The panel is ready to be installed onto your rack!
-   ![](./assets/connect-4.jpg)
+### The "Edge Cluster"
 
-# Resources
+Combine **2x Raspberry Pi Modules**.
+_Repeat for as many units as you need. Ideal for K3s clusters or distributed computing labs._
 
-- https://mini-rack.jeffgeerling.com
-- https://www.amazon.com/GeeekPi-Raspberry-Adapters-Compatible-RackMate
-- https://github.com/Coole-Guus/pi-slice-rack
-- https://makerworld.com/zh/models/1400538-10-inch-rack-1u-2-x-3-5-inch-hdd-hot-swap
+### The "Custom Router"
+
+Combine a **Mini PC Module** + **Keystone/Switch Module**.
+_Build a powerful OPNsense/PfSense router with front-facing ports._
+
+---
+
+## 📦 Module Catalog
+
+Download and print these modules directly:
+
+### Compute
+
+- [**Raspberry Pi 4 / 5 Mount**](https://makerworld.com/zh/models/1769785-raspberry-pi-4-5-mount-modular-and-composable).
+- [**CWWK x86-P5 Motherboard Mount**](https://makerworld.com/zh/models/1876206-cwwk-x86-p5-rack-mount-modular-composable) - For N100 boards, supports active cooling.
+
+### Storage
+
+- [**2.5-inch HDD/SSD Mount**](https://makerworld.com/zh/models/1757195-2-5-inch-disk-mount-modular-and-composable) - Hot-swappable design.
+
+### Networking & Accessories
+
+- [**Patch Panel Module**](https://makerworld.com/zh/models/2026534-patch-panel-module-composable-0-5u) - For keystone jacks.
+- [**Blank / Vent Panels**](https://makerworld.com/zh/models/1757048-blank-panel-for-caprack-10-inch-rack-system) - To fill empty slots or improve airflow.
+
+### 🚧 Work in Progress
+
+- 3.5-inch HDD Mount (Fixed mount due to space constraints)
+- Cable Management Module
+
+---
+
+## 🛠️ Assembly Guide
+
+CapRack uses a standardized connection interface using **M6 screws**, commonly found in server environments.
+
+**Requirements (per 1U unit):**
+
+- 2x CapRack Modules
+- 2x M6 Screws (12mm+ length)
+- 2x M6 Hex Nuts
+
+### Step-by-Step Connection
+
+**1. Prepare parts**
+Align your two chosen modules.
+![](./assets/connect-0.jpg)
+
+**2. Slide together**
+Engage the dovetail/slot mechanism by sliding the modules from the side.
+![](./assets/connect-1.jpg)
+
+**3. Insert nuts**
+Slide until flush. Place an M6 hex nut into the designated captive slot on the rear.
+![](./assets/connect-2.jpg)
+
+**4. Secure**
+Insert the M6 screw from the front/side and tighten into the nut.
+![](./assets/connect-3.jpg)
+
+**5. Finish**
+Repeat for the second screw. Your rock-solid 1U unit is now ready to rack!
+![](./assets/connect-4.jpg)
+
+---
+
+## 📚 Resources & Inspiration
+
+- [Jeff Geerling's Mini Rack Project](https://mini-rack.jeffgeerling.com) - The inspiration for many 10-inch labs.
+- [Pi Slice Rack](https://github.com/Coole-Guus/pi-slice-rack) - A high-density alternative for Pi clusters.
+- [GeeekPi RackMate](https://www.amazon.com/GeeekPi-Raspberry-Adapters-Compatible-RackMate) - Commercial alternative.

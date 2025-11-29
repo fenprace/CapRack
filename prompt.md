@@ -16,4 +16,4 @@ or it can be combined with another module to compose a 1U module.
 
 # Your task
 
-Read README.md. Advise me how to improve the README.md file.
+Read README.md. Advise me how to improve the README.md file to make it more readable, impressive, professional and helpful.
