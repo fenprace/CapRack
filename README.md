@@ -112,6 +112,24 @@ The design file for the blank panel is open source and available as a reference 
 
 ---
 
+## ✨ Showcase: My Home Lab
+
+This is my 8U home lab setup built with CapRack. From top to bottom:
+
+1. A customized cable management module.
+2. A Sirivision switch.
+3. A vent panel.
+4. A mini PC module + a blank panel module as placeholder. The mini PC runs my home router.
+5. Another cable management module.
+6. Another mini PC + blank panel module. This mini PC runs my home NAS.
+7. 2.5-inch disk mount x2.
+8. 2.5-inch disk mount + 3.5-inch disk mount.
+
+![My Home Lab](./assets/homelab.jpg)
+_My home lab setup._
+
+---
+
 ## 📚 Resources & Inspiration
 
 - https://mini-rack.jeffgeerling.com
