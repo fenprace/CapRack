@@ -19,7 +19,7 @@ The 10-inch rack is a favorite among homelabbers for its compact footprint. Howe
 - **Standardized:** Uses common M6 screws for a secure and accessible connection.
 - **3D Printable:** Designed to be printed easily on standard hobbyist printers.
 
-## 🧩 Composition Examples
+## 🧩 Examples
 
 The beauty of CapRack is flexibility and composability. Here are a few ways you can use it:
 
@@ -38,6 +38,9 @@ _Repeat for as many units as you need. Ideal for K3s clusters or distributed com
 
 Combine a **Mini PC Module** + **Keystone/Switch Module**.
 _Build a powerful OPNsense/PfSense router with front-facing ports._
+
+![Mini switch and patch panel](./assets/mini-switch.jpg)
+_A mini switch and patch panel._
 
 ---
 
@@ -58,6 +61,7 @@ Download and print these modules directly:
 
 - [**Patch Panel Module**](https://makerworld.com/zh/models/2026534-patch-panel-module-composable-0-5u) - For keystone jacks.
 - [**Blank / Vent Panels**](https://makerworld.com/zh/models/1757048-blank-panel-for-caprack-10-inch-rack-system) - To fill empty slots or improve airflow.
+- [**Cudy GS105U Mount**](https://makerworld.com/zh/models/2060363-cudy-gs105u-mount-module-composable-0-5u) - [Cudy GS105U](https://www.cudy.com/products/gs105u-1-0) is a 5-port gigabit mini switch.
 
 ### 🚧 Work in Progress
 
