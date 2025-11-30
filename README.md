@@ -4,7 +4,7 @@
 
 **The modular mounting system that transforms your 10-inch rack into a clean, aesthetic workspace.**
 
-CapRack allows you to install small footprint equipment—like Raspberry Pis, mini PCs, and hard drives—into a standard 10-inch mini rack with a professional finish. No more messy trays or loose cables.
+CapRack is a mounting system designed to help homelabbers install small footprint equipment—like Raspberry Pis, mini PCs, and hard drives—into standard 10-inch mini racks with a professional finish. No more messy trays or loose cables.
 
 ---
 
@@ -15,9 +15,9 @@ The 10-inch rack is a favorite among homelabbers for its compact footprint. Howe
 **CapRack solves this by breaking the 1U space into two 0.5U composable modules.**
 
 - **Modular & Composable:** Mix and match any two modules to create a full 1U unit perfectly tailored to your needs.
-- **Aesthetic:** Everything aligns perfectly. Hide the mess and show off your lab.
+- **Aesthetic:** Engineered for a flush fit and clean lines. Hide the mess and show off your lab.
 - **Standardized:** Uses common M6 screws for a secure and accessible connection.
-- **3D Printable:** Designed to be printed easily on standard hobbyist printers.
+- **3D Printable:** Optimized for standard hobbyist FDM printers.
 
 ## 🧩 Examples
 
@@ -29,24 +29,24 @@ Combine a **Mini PC Module** + **2.5-inch HDD Module**.
 ![Mini NAS in 1U](./assets/mini-nas.jpg)
 _Perfect for a compact TrueNAS or Unraid server._
 
-### The "Edge Cluster"
-
-Combine **2x Raspberry Pi Modules**.
-_Repeat for as many units as you need. Ideal for K3s clusters or distributed computing labs._
-
 ### The "Custom Router"
 
 Combine a **Mini PC Module** + **Keystone/Switch Module**.
 _Build a powerful OPNsense/PfSense router with front-facing ports._
 
 ![Mini switch and patch panel](./assets/mini-switch.jpg)
-_A mini switch and patch panel._
+_I don't have a spare mini PC. This is a patch panel + mini switch module._
+
+### The "Edge Cluster"
+
+Combine **2x Raspberry Pi Modules**.
+_Repeat for as many units as you need. Ideal for pi clusters or distributed computing labs._
 
 ---
 
 ## 📦 Module Catalog
 
-Download and print these modules directly:
+Ready to print? Download these modules directly:
 
 ### Compute
 
@@ -60,8 +60,8 @@ Download and print these modules directly:
 ### Networking & Accessories
 
 - [**Patch Panel Module**](https://makerworld.com/zh/models/2026534-patch-panel-module-composable-0-5u) - For keystone jacks.
+- [**Cudy GS105U Switch Mount**](https://makerworld.com/zh/models/2060363-cudy-gs105u-mount-module-composable-0-5u) - Mount for a 5-port gigabit mini switch.
 - [**Blank / Vent Panels**](https://makerworld.com/zh/models/1757048-blank-panel-for-caprack-10-inch-rack-system) - To fill empty slots or improve airflow.
-- [**Cudy GS105U Mount**](https://makerworld.com/zh/models/2060363-cudy-gs105u-mount-module-composable-0-5u) - [Cudy GS105U](https://www.cudy.com/products/gs105u-1-0) is a 5-port gigabit mini switch.
 
 ### 🚧 Work in Progress
 
@@ -82,51 +82,54 @@ CapRack uses a standardized connection interface using **M6 screws**, commonly f
 
 ### Step-by-Step Connection
 
-1. **Prepare parts**
-   Align your two chosen modules.
-   ![](./assets/connect-0.jpg)
+1.  **Prepare parts**
+    Align your two chosen modules.
+    ![](./assets/connect-0.jpg)
 
-2. **Slide together**
-   Engage the dovetail/slot mechanism by sliding the modules from the side.
-   ![](./assets/connect-1.jpg)
+2.  **Slide together**
+    Engage the dovetail/slot mechanism by sliding the modules from the side.
+    ![](./assets/connect-1.jpg)
 
-3. **Insert nuts**
-   Slide until flush. Place an M6 hex nut into the designated captive slot on the rear.
-   ![](./assets/connect-2.jpg)
+3.  **Insert nuts**
+    Slide until flush. Place an M6 hex nut into the designated captive slot on the rear.
+    ![](./assets/connect-2.jpg)
 
-4. **Secure**
-   Insert the M6 screw from the front/side and tighten into the nut.
-   ![](./assets/connect-3.jpg)
+4.  **Secure**
+    Insert the M6 screw from the front/side and tighten into the nut.
+    ![](./assets/connect-3.jpg)
 
-5. **Finish**
-   Repeat for the second screw. Your rock-solid 1U unit is now ready to rack!
-   ![](./assets/connect-4.jpg)
+5.  **Finish**
+    Repeat for the second screw. Your rock-solid 1U unit is now ready to rack!
+    ![](./assets/connect-4.jpg)
 
 ---
 
 ## 📐 Design Your Own Module
 
-The design file for the blank panel is open source and available as a reference design. We encourage the community to create custom modules for their specific hardware needs.
+The connection interface standard is open source. We provide the blank panel design as a reference implementation. We encourage the community to create custom modules for their specific hardware needs.
 
-**Reference design:** [Download blank panel step file](https://github.com/fenprace/CapRack/blob/master/steps/caprack_blank.STEP)
+**Reference design:** [Download blank panel STEP file](https://github.com/fenprace/CapRack/blob/master/steps/caprack_blank.STEP)
+
+_Note: While the standard interface is open, some specific module designs listed above may retain their individual copyright licenses. Please check the license on the download page for each model._
 
 ---
 
 ## ✨ Showcase: My Home Lab
 
-This is my 8U home lab setup built with CapRack. From top to bottom:
-
-1. A customized cable management module.
-2. A Sirivision switch.
-3. A vent panel.
-4. A mini PC module + a blank panel module as placeholder. The mini PC runs my home router.
-5. Another cable management module.
-6. Another mini PC + blank panel module. This mini PC runs my home NAS.
-7. 2.5-inch disk mount x2.
-8. 2.5-inch disk mount + 3.5-inch disk mount.
+This is my 8U home lab setup built with CapRack.
 
 ![My Home Lab](./assets/homelab.jpg)
-_My home lab setup._
+
+From top to bottom:
+
+1.  Customized cable management module
+2.  Sirivision switch mount
+3.  Vent panel for airflow
+4.  **Router Node:** Mini PC module + blank panel (running RouterOS)
+5.  Cable management module
+6.  **NAS Node:** Mini PC + blank panel
+7.  **Storage Array:** 2x 2.5-inch disk mounts
+8.  **Hybrid Storage:** 2.5-inch disk mount + 3.5-inch disk mount
 
 ---
 
