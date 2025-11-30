@@ -104,7 +104,7 @@ CapRack uses a standardized connection interface using **M6 screws**, commonly f
 
 The design file for the blank panel is open source and available as a reference design. We encourage the community to create custom modules for their specific hardware needs.
 
-**Reference Design:** [Download Blank Panel Step File](./step/caprack_blank.step)
+**Reference design:** [Download blank panel step file](https://github.com/fenprace/CapRack/blob/master/steps/caprack_blank.STEP)
 
 ---
 
