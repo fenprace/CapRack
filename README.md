@@ -47,7 +47,7 @@ Download and print these modules directly:
 
 ### Compute
 
-- [**Raspberry Pi 4 / 5 Mount**](https://makerworld.com/zh/models/1769785-raspberry-pi-4-5-mount-modular-and-composable).
+- [**Raspberry Pi 4 / 5 Mount**](https://makerworld.com/zh/models/1769785-raspberry-pi-4-5-mount-modular-and-composable)
 - [**CWWK x86-P5 Motherboard Mount**](https://makerworld.com/zh/models/1876206-cwwk-x86-p5-rack-mount-modular-composable) - For N100 boards, supports active cooling.
 
 ### Storage
@@ -78,30 +78,38 @@ CapRack uses a standardized connection interface using **M6 screws**, commonly f
 
 ### Step-by-Step Connection
 
-**1. Prepare parts**
-Align your two chosen modules.
-![](./assets/connect-0.jpg)
+1. **Prepare parts**
+   Align your two chosen modules.
+   ![](./assets/connect-0.jpg)
 
-**2. Slide together**
-Engage the dovetail/slot mechanism by sliding the modules from the side.
-![](./assets/connect-1.jpg)
+2. **Slide together**
+   Engage the dovetail/slot mechanism by sliding the modules from the side.
+   ![](./assets/connect-1.jpg)
 
-**3. Insert nuts**
-Slide until flush. Place an M6 hex nut into the designated captive slot on the rear.
-![](./assets/connect-2.jpg)
+3. **Insert nuts**
+   Slide until flush. Place an M6 hex nut into the designated captive slot on the rear.
+   ![](./assets/connect-2.jpg)
 
-**4. Secure**
-Insert the M6 screw from the front/side and tighten into the nut.
-![](./assets/connect-3.jpg)
+4. **Secure**
+   Insert the M6 screw from the front/side and tighten into the nut.
+   ![](./assets/connect-3.jpg)
 
-**5. Finish**
-Repeat for the second screw. Your rock-solid 1U unit is now ready to rack!
-![](./assets/connect-4.jpg)
+5. **Finish**
+   Repeat for the second screw. Your rock-solid 1U unit is now ready to rack!
+   ![](./assets/connect-4.jpg)
+
+---
+
+## 📐 Design Your Own Module
+
+The design file for the blank panel is open source and available as a reference design. We encourage the community to create custom modules for their specific hardware needs.
+
+**Reference Design:** [Download Blank Panel Step File](./step/caprack_blank.step)
 
 ---
 
 ## 📚 Resources & Inspiration
 
-- [Jeff Geerling's Mini Rack Project](https://mini-rack.jeffgeerling.com) - The inspiration for many 10-inch labs.
-- [Pi Slice Rack](https://github.com/Coole-Guus/pi-slice-rack) - A high-density alternative for Pi clusters.
-- [GeeekPi RackMate](https://www.amazon.com/GeeekPi-Raspberry-Adapters-Compatible-RackMate) - Commercial alternative.
+- https://mini-rack.jeffgeerling.com
+- https://github.com/Coole-Guus/pi-slice-rack
+- https://www.amazon.com/GeeekPi-Raspberry-Adapters-Compatible-RackMate
